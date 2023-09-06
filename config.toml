@@ -20,6 +20,7 @@ excluded-patches = "microg-support translations"
 [YT-Music]
 enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-arch = "arm64-v8a"
 build-mode = "module"
 version = "6.17.52"
 included-patches = "compact-header"
