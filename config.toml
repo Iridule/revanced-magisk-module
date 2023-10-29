@@ -6,7 +6,7 @@ build-mindetach-module = false
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -18,7 +18,7 @@ included-patches = "add-splash-animation disable-landscape-mode"
 excluded-patches = "microg-support translations"
 
 [YT-Music]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
 patches-source = "inotia00/revanced-patches"
