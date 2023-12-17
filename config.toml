@@ -5,15 +5,14 @@ build-mindetach-module = false
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
-[YouTube]
-enabled = true
-apkmirror-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+[YouTube-Extended]
+app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "RVX"
-apkmirror-arch = "universal"
+rv-brand = "ReVanced Extended"
 build-mode = "module"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 included-patches = "add-splash-animation disable-landscape-mode"
 excluded-patches = "microg-support translations"
 
