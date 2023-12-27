@@ -6,6 +6,18 @@
         "key": "YouTubeAppName",
         "value": "YouTube "
       }
+{
+    "patchName": "Custom branding name YouTube Music",
+    "options": [
+      {
+        "key": "AppNameNotification",
+        "value": "YT-Music "
+      },
+      {
+        "key": "AppNameLauncher",
+        "value": "YT-Music "
+      }
+      
     ]
   }
 ]
