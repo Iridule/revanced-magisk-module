@@ -1,4 +1,5 @@
 [YouTube ]
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -8,6 +9,7 @@ included-patches = "'Add splash animation' 'Disable landscape mode' 'Hide animat
 excluded-patches = "'MicroG support' 'Translations'"
 
 [YT-Music]
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
